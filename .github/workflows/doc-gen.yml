@@ -33,7 +33,7 @@ jobs:
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}
           WATCH_PATH: 'src'
-        run: node scripts/generate-docs.mjs
+        run: node scripts/generateDocs.mjs
 
       - name: Commit generated docs
         run: |
