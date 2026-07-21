@@ -11,7 +11,6 @@ const PROMPTS_DIR = 'prompts';
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
-// --- Load style guidance once, reuse across every file in this run ---
 function loadSystemPrompt() {
   const files = ['formatting.md', 'detail-level.md', 'audience.md'];
   const sections = files.map((f) => {
