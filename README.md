@@ -21,3 +21,6 @@ Clean code is great. Clean code that's well documented is even better. This cust
 ## Future Enhancements
 - Auto-publishing to GitHub pages
 - Transform into a library that can be imported as a dependency, instead of a GH Action workflow
+
+## Documentation Index
+- [test.md](test.md)
